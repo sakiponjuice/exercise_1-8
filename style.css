@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+.list{
+  margin: 50px auto;
+  width: 960px;
+}
+.list-tile{
+  padding: 20px;
+}
+.list-tile:nth-child(odd){
+ background-color: silver;
+}
+
+.boxes{
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto 10px auto;
+}
+
+.box{
+  height: 200px;
+  width: 30%;
+  margin-bottom:40px;
+  margin-right: 5%;
+  background-color: yellow;
+}
+
+.box:nth-child(4n+1){
+  background-color: orange;
+}
+
+.box:nth-of-type(3n){
+  margin-right: 0;
+}
